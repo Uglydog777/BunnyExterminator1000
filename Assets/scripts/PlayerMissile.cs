@@ -65,7 +65,7 @@ public class PlayerMissile : MonoBehaviour
                     rb.freezeRotation = false; //let physics take over again
                 }
             }
-
+            
             // cheat stuff
             if (Input.GetKeyDown(KeyCode.F1))
             {
